@@ -63,13 +63,5 @@
         </p>
       </div>
     </div>
-    <div class="container mx-auto my-10 text-center">
-      <h2 class="text-3xl font-semibold text-gray-800">合作廠商</h2>
-      <div class="mt-5 flex items-center justify-center">
-        <img class="mx-4 h-16" src="/images/maintenance.png" alt="合作廠商1" />
-        <img class="mx-4 h-16" src="/images/maintenance.png" alt="合作廠商2" />
-        <img class="mx-4 h-16" src="/images/maintenance.png" alt="合作廠商3" />
-      </div>
-    </div>
   </div>
 </template>
