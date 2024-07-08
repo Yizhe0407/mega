@@ -3,10 +3,6 @@ export default defineNuxtConfig({
   typescript: {
     // typeCheck: true
   },
-  app: {
-    baseURL: process.env.NODE_ENV === 'production' ? '/megatire/' : '/',
-    buildAssetsDir: '/static/'
-  },
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss', '@nuxt/image']
 })
