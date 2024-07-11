@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@fawmi/vue-google-maps": "^0.9.79",
+    "@vueuse/head": "^2.0.0",
     "nuxt": "^3.12.3",
     "vue3-google-map": "^0.20.0"
   },
