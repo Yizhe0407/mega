@@ -1,5 +1,5 @@
 <template>
-  <div class="border border-gray-300 p-3">
+  <div class="border-b border-gray-300 p-3">
     <div class="flex items-center justify-between">
       <NuxtLink to="/" class="text-2xl font-semibold text-gray-500">兆豐輪胎保養廠</NuxtLink>
       <div class="ml-auto hidden md:flex">
