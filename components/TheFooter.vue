@@ -6,8 +6,6 @@
       <p class="mt-2">電話: (04) 24220080</p>
       <p class="mt-2">電子郵件: liaoyizhe75@gmail.com</p>
     </footer>
-    <p class="bg-zinc-500 text-center text-white">
-      © 2024 兆豐輪胎保養廠. All rights reserved.
-    </p>
+    <p class="bg-zinc-500 text-center text-white">© 2024 兆豐輪胎保養廠. All rights reserved.</p>
   </div>
 </template>

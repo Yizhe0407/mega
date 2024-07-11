@@ -60,7 +60,7 @@
     <div class="mt-10 flex justify-center">
       <div class="w-full max-w-screen-lg">
         <!-- 不同尺寸下會有不同的寬度 -->
-        <GoogleMaps class="300px:w-400px 720px:w-800px lg:w-1000px mx-auto" />
+        <GoogleMaps class="mx-auto 300px:w-400px 720px:w-800px lg:w-1000px" />
       </div>
     </div>
   </div>

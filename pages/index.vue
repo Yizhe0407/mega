@@ -54,8 +54,7 @@ export default {
     updateImageSrc() {
       // 添加对window对象的检查
       if (typeof window !== 'undefined') {
-        this.imageSrc =
-          window.innerWidth > 700 ? '/images/w-cover.jpg' : '/images/h-cover.jpg'
+        this.imageSrc = window.innerWidth > 700 ? '/images/w-cover.jpg' : '/images/h-cover.jpg'
       }
     }
   }

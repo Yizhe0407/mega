@@ -4,8 +4,12 @@
       <NuxtLink to="/" class="text-2xl font-semibold text-gray-500">兆豐輪胎保養廠</NuxtLink>
       <div class="ml-auto hidden md:flex">
         <NuxtLink to="/serve-content" class="mr-5 hover:text-blue-700">服務項目</NuxtLink>
-        <NuxtLink to="/location" class="mr-5 hover:text-blue-700" @click.native="closeMenu">聯絡資訊</NuxtLink>
-        <NuxtLink to="/info" class="hover:text-blue-700" @click.native="closeMenu">關於兆豐</NuxtLink>
+        <NuxtLink to="/location" class="mr-5 hover:text-blue-700" @click.native="closeMenu"
+          >聯絡資訊</NuxtLink
+        >
+        <NuxtLink to="/info" class="hover:text-blue-700" @click.native="closeMenu"
+          >關於兆豐</NuxtLink
+        >
       </div>
       <button class="text-gray-500 md:hidden" @click="toggleMenu">
         <svg
@@ -34,9 +38,15 @@
     </div>
     <transition name="fade">
       <div v-if="menuOpen" class="mt-3 flex flex-col space-y-2 md:hidden">
-        <NuxtLink to="/serve-content" class="hover:text-blue-700" @click.native="closeMenu">服務項目</NuxtLink>
-        <NuxtLink to="/location" class="hover:text-blue-700" @click.native="closeMenu">聯絡資訊</NuxtLink>
-        <NuxtLink to="/info" class="hover:text-blue-700" @click.native="closeMenu">關於兆豐</NuxtLink>
+        <NuxtLink to="/serve-content" class="hover:text-blue-700" @click.native="closeMenu"
+          >服務項目</NuxtLink
+        >
+        <NuxtLink to="/location" class="hover:text-blue-700" @click.native="closeMenu"
+          >聯絡資訊</NuxtLink
+        >
+        <NuxtLink to="/info" class="hover:text-blue-700" @click.native="closeMenu"
+          >關於兆豐</NuxtLink
+        >
       </div>
     </transition>
   </div>
@@ -62,10 +72,13 @@ export default {
 
 <style>
 /* 添加必要的過渡效果 */
-.fade-enter-active, .fade-leave-active {
+.fade-enter-active,
+.fade-leave-active {
   transition: opacity 0.4s ease;
 }
-.fade-enter, .fade-leave-to {
+
+.fade-enter,
+.fade-leave-to {
   opacity: 0;
 }
 </style>
