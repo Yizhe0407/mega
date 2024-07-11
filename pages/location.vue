@@ -46,7 +46,7 @@
           </div>
           <div class="flex justify-between">
             <p>星期六</p>
-            <p>8:00 AM ‑ 2:00 PM</p>
+            <p>8:00 AM ‑ 1:00 PM</p>
           </div>
           <div class="flex justify-between">
             <p>星期日</p>
